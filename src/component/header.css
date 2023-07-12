@@ -3,9 +3,10 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    max-width: 1280px;
+    max-width: auto;
     height: 80px;
     padding: 0 76px;
+    margin-right: 80px;
 }
 
 span.logo-title {
