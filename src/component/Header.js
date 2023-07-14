@@ -9,8 +9,10 @@ import { Link } from 'react-router-dom';
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const Dropdown = () => setIsOpen(!isOpen);
-
+  const Dropdown = () => {
+    setIsOpen(!isOpen);
+  };
+  
     return (
         // flex container
       <header className='header-container'>

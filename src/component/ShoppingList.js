@@ -5,8 +5,8 @@ function ShoppingList( {allData} ) {
         return null;
     } else {
         return (
-        <div className="shop__container">
-            <div className="shopping_name">상품 리스트</div>
+        <div className="shopping__container">
+            <div className="shopping__name">상품 리스트</div>
             {(allData.slice(0, 4)).map((item) => (
             <ShoppingItem item={item} />
             ))}

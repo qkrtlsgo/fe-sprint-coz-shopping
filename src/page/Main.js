@@ -7,8 +7,8 @@ function Main( {allData} ) {
     return (
       <>
       <Header />
-      <ShoppingList allData={allData}/>
-      <BookMarkList allData={allData}/>
+      <ShoppingList allData={allData} />
+      <BookMarkList allData={allData} />
       <Footer />
       </>
     );

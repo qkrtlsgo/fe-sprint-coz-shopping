@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './base.css';
 import { useState, useEffect } from 'react';
 import Main from './page/Main';
-import ProductList from './page/ProductList';
+import ProductsList from './page/ProductsList';
 
 function App() {
   const [allData, setAllData] = useState([])
@@ -28,7 +28,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Main allData={allData} />} />
-      <Route path="/productlist" element={<ProductList />} />
+      <Route path="/products/list" element={<ProductsList allData={allData} />} />
     </Routes>
   </BrowserRouter>
   )

@@ -7,5 +7,5 @@ function ShoppingItem( {item} ) {
     </div>
   );
 };
-  
+
 export default ShoppingItem;
