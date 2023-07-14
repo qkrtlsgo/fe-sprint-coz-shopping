@@ -1,9 +1,11 @@
 .footer-container {
     display: block;
+    position: absolute;
     bottom: 0;
     text-align: center;
     max-width: auto;
     height: 58px;
     padding: 11px;
+    margin-left: 546px;
     color: #888888;
 }

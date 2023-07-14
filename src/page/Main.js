@@ -1,17 +1,17 @@
-import Header from "../component/Header";
-import ShoppingList from '../component/ShoppingList';
-import BookMarkList from '../component/BookMarkList';
-import Footer from "../component/Footer";
+import Header from "../components/Header";
+import ShoppingList from '../components/ShoppingList';
+import BookMarkList from '../components/BookMarkList';
+import Footer from "../components/Footer";
 
 function Main( {allData} ) {
     return (
       <>
       <Header />
-      <ShoppingList allData={allData}/>
-      <BookMarkList allData={allData}/>
+      <ShoppingList allData={allData} />
+      <BookMarkList allData={allData} />
       <Footer />
       </>
     );
   }
-  
+
 export default Main;
